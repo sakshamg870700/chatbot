@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Store help chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="chat">
+    <header>
+      <h1>Store help</h1>
+      <p>Ask about shipping, returns, payments, warranty or your account.</p>
+    </header>
+    <div id="log" role="log" aria-live="polite"></div>
+    <div class="chips" id="chips"></div>
+    <form id="form" autocomplete="off">
+      <input id="input" placeholder="Type your question" aria-label="Your question" autofocus>
+      <button class="send" type="submit">Send</button>
+    </form>
+  </main>
+  <script src="faqs.js"></script>
+  <script src="nlp.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
